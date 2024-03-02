@@ -14,12 +14,8 @@ a:visited {
     color: #3B5998;
 }
 
-header {
-    background-color: #F2E2D2;
-}
-
 .name {
-    font-size: 150px;
+    font-size: 100px;
 }
 
 .menu-item {
@@ -35,13 +31,13 @@ header {
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
-    margin-bottom: 75px;
+    margin: 30px;
     align-items: center;
 }
 
 body {
     color: #3B5998;
-    background-color: #F2E2D2;
+    background-color: #f3fbf6;
     font-family: "Barlow", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -57,20 +53,19 @@ img {
     border-radius: 50px;
     border-width: 5px;
     border-color: #3B5998;
-    max-width: 80%;
+    max-width: 60%;
     height: auto;
 }
 
 footer {
     color: #3B5998;
-    background-color: #F2E2D2;
     font-family: "Instrument Serif", serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 50px;
+    font-size: 30px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
-    padding: 50px;
+    margin: 30px;
 }
