@@ -28,7 +28,6 @@ a:visited {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    list-style-type: none;
     font-family: "Instrument Serif", serif;
     font-weight: 400;
     font-style: normal;
@@ -71,4 +70,28 @@ footer {
     margin: 30px;
 }
 
-@media screen and (max-width: 600px) {}
+@media only screen and (max-width: 768px) {
+
+    #menu-list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 60px;
+    }
+
+    .name {
+        font-size: 100px;
+    }
+
+    .menu-item {
+        font-size: 50px;
+    }
+
+    footer {
+        font-size: 40px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 60px;
+    }
+}
