@@ -43,15 +43,12 @@ body {
     font-style: normal;
 }
 
-main {
-    display: flex;
-    justify-content: center;
-}
-
 .image-container {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .desktop-photo {
@@ -59,16 +56,16 @@ main {
     border-radius: 50px;
     border-width: 5px;
     border-color: #3B5998;
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
 }
 
 .mobile-photo {
     border-style: double;
     border-radius: 50px;
-    border-width: 5px;
+    border-width: 10px;
     border-color: #3B5998;
-    max-width: 60%;
+    max-width: 70%;
     height: auto;
 }
 
@@ -77,11 +74,10 @@ footer {
     font-family: "Instrument Serif", serif;
     font-weight: 100;
     font-style: normal;
-    font-size: 2.25vw;
+    font-size: 2vw;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: space-around;
     margin: 30px;
 }
 
@@ -98,13 +94,13 @@ footer {
     #menu-list {
         display: flex;
         flex-direction: column;
-        align-items: center;
-        justify-content: center;
+        align-items: end;
+        justify-items: auto;
         margin: 30px;
     }
 
     .name {
-        font-size: 20vw;
+        font-size: 18vw;
     }
 
     .menu-item {
@@ -112,7 +108,7 @@ footer {
     }
 
     footer {
-        font-size: 6vw;
+        font-size: 8vw;
         display: flex;
         flex-direction: row;
         align-items: center;
@@ -126,6 +122,6 @@ footer {
 
     .mobile-photo {
         display: block;
-        margin: 30px;
+        margin: 70px;
     }
 }
