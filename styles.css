@@ -69,6 +69,50 @@ body {
     height: auto;
 }
 
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2vw;
+    font-weight: 1000;
+}
+
+.column {
+    flex: 1;
+    padding: 20px 80px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+}
+
+.boxes {
+    display: flex;
+}
+
+.headshot {
+    flex: 1;
+    width: 50%;
+    margin: 30px 10px 60px 80px;
+    box-sizing: border-box;
+}
+
+.headshot-photo {
+    width: 100%;
+    border: 2px solid #3B5998;
+    padding: 10px;
+    height: auto;
+    display: block;
+    box-sizing: border-box;
+}
+
+.text {
+    flex: 1;
+    padding: 0px 40px 20px 20px;
+    margin: 0px 30px;
+    box-sizing: border-box;
+    font-size: 1.75vw;
+    font-weight: 1000;
+    flex-basis: 30%;
+}
+
 footer {
     color: #3B5998;
     font-family: "Instrument Serif", serif;
@@ -123,5 +167,12 @@ footer {
     .mobile-photo {
         display: block;
         margin: 70px;
+    }
+
+    .column {
+        flex-basis: 100%;
+        padding: 0px;
+        margin: 5px 5px 0px 40px;
+        font-size: 4vw;
     }
 }
