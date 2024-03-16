@@ -175,4 +175,28 @@ footer {
         margin: 5px 5px 0px 40px;
         font-size: 4vw;
     }
+
+    .boxes {
+        flex-direction: column;
+        flex-basis: 100%;
+    }
+
+    .headshot {
+        width: 80%;
+        max-width: 100%;
+        height: auto;
+        display: block;
+        margin-bottom: 15px;
+    }
+
+    .text {
+        font-size: 4vw;
+        font-weight: 900;
+        margin: 30px 30px 30px 60px;
+    }
+
+    #first-line {
+        font-size: 7vw;
+        font-weight: bolder;
+    }
 }
